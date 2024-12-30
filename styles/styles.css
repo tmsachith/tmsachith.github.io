@@ -718,6 +718,18 @@ section {
   padding-left: 0;
 }
 
+/* GitHub Stats Section */
+.github-stats-container {
+    padding: 2rem;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 0 !important;
