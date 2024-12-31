@@ -295,7 +295,7 @@ If I remember my past, I received my primary education at the Roman Catholic Sch
 
         <script>
             async function fetchTopRepos() {
-            const response = await fetch('https://api.github.com/users/tmsachith/repos?sort=stars&per_page=5');
+            const response = await fetch('https://api.github.com/users/tmsachith/repos');
             const repos = await response.json();
             const reposContainer = document.getElementById('top-repos');
             repos.forEach(repo => {
